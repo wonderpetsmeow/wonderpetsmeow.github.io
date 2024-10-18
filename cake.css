@@ -1,0 +1,482 @@
+body {
+    background-color: #b5651d;
+    justify-content: center;
+    }
+.tier1 {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    background-color: #3f000f;
+    top: 350px;
+    left: 70px;
+
+}
+.tier2 {
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    background-color: #3f000f;
+    top: 290px;
+    left: 95px;
+}
+.tier3 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background-color: #3f000f;
+    top: 240px;
+    left: 120px;
+}
+.icing1 {
+    width: 200px;
+    height: 5px;
+    position: absolute;
+    background-color: #fffdd0;
+    top: 350px;
+    left: 70px;
+}
+.icing2 {
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    background-color: #fffdd0;
+    top: 290px;
+    left: 95px;
+}
+.icing3 {
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    background-color: #fffdd0;
+    top: 240px;
+    left: 120px;
+}
+.candle1 {
+    width: 10px;
+    height: 25px;
+    background-color: #fffcbb;
+    position: absolute;
+    top: 215px;
+    left: 135px;
+}
+.candle2 {
+    width: 20px;
+    height: 40px;
+    background-color: #fffcbb;
+    position: absolute;
+    top: 200px;
+    left: 160px;
+}
+.candle3 {
+    width: 10px;
+    height: 25px;
+    background-color: #fffcbb;
+    position: absolute;
+    top: 215px;
+    left: 195px;
+}
+.flame1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #ffbd2e;
+    position: absolute;
+    top: 175px;
+    left: 158px;
+    transform: rotateY(55deg);
+}
+.flame2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #ffbd2e;
+    position: absolute;
+    top: 195px;
+    left: 130px;
+    transform: rotateY(55deg);
+}
+.flame3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #ffbd2e;
+    position: absolute;
+    top: 195px;
+    left: 190px;
+    transform: rotateY(55deg);
+}
+.tier1circle1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #fffdd0;
+    border-radius: 60px;
+    top: 356px;
+    left: 70px;
+}
+.tier1circle2 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #fffdd0;
+    border-radius: 60px;
+    top: 356px;
+    left: 128px;
+}
+.tier1circle3 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #fffdd0;
+    border-radius: 60px;
+    top: 356px;
+    left: 186px;
+}
+.tier1circle4 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #fffdd0;
+    border-radius: 60px;
+    top: 356px;
+    left: 244px;
+}
+.hide1 {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    background-color: #3f000f;
+    top: 380px;
+    left: 70px;
+}
+.hide2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #3f000f;
+    top: 360px;
+    left: 75px;
+}
+hide3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #3f000f;
+    top: 360px;
+    left: 133px;
+}
+.hide4 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #3f000f;
+    top: 360px;
+    left: 191px;
+}
+.hide5 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #3f000f;
+    top: 360px;
+    left: 249px;   
+}
+.hide6 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: #b5651d;
+    top: 350px;
+    left: 270px;
+}
+
+.diamond1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #b76e79;
+    transform: rotateZ(45deg);
+    top: 380px;
+    left: 90px;
+}
+.diamond2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #b76e79;
+    transform: rotateZ(45deg);
+    top: 380px;
+    left: 148px;
+}
+.diamond3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #b76e79;
+    transform: rotateZ(45deg);
+    top: 380px;
+    left: 207px;
+}
+.innerflame1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #cf352e;
+    position: absolute;
+    top: 185px;
+    left: 163px;
+    transform: rotateY(55deg);
+}
+.innerflame2 {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #cf352e;
+    position: absolute;
+    top: 203px;
+    left: 134px;
+    transform: rotateY(55deg);
+}
+.innerflame3 {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #cf352e;
+    position: absolute;
+    top: 203px;
+    left: 194px;
+    transform: rotateY(55deg);
+}
+.balloon1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    background-color: #00ffff;
+    position: absolute;
+    transform: rotateY(45deg);
+}
+.rope1 {
+    width: 2px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    left: 34px;
+}
+.animation1 {
+    animation-name: fly1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes fly1 {
+    50% {
+        transform: translateY(40px);
+    }
+}
+.balloon2 {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    background-color: #ff80ff;
+    position: absolute;
+    transform: rotateY(45deg);
+    top: 30px;
+    left: 60px;
+}
+.rope2 {
+    width: 2px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 92px;
+}
+.animation2 {
+    animation-name: fly2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes fly2 {
+    50% {
+        transform: translateY(40px);
+    }
+}
+.balloon3 {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    background-color: #b19cd9;
+    position: absolute;
+    transform: rotateY(45deg);
+    top: 20px;
+    left: 200px;
+}
+.rope3 {
+    width: 2px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 233px;
+}
+.animation3 {
+    animation-name: fly3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+@keyframes fly3 {
+    50% {
+        transform: translateY(40px);
+    }
+}
+.balloon4 {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    background-color: #ffff00;
+    position: absolute;
+    transform: rotateY(45deg);
+    top: 10px;
+    left: 260px;
+}
+.rope4 {
+    width: 2px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: 292px;
+}
+.animation4 {
+    animation-name: fly4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.7s;
+}
+@keyframes fly4 {
+    50% {
+        transform: translateY(30px);
+    }
+}
+.design21 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: #fffdd0;
+    transform: rotateZ(45deg);
+    top: 302px;
+    left: 103px;
+}
+.design22 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: #fffdd0;
+    transform: rotateZ(45deg);
+    top: 302px;
+    left: 153px;
+}
+.design23 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-color: #fffdd0;
+    transform: rotateZ(45deg);
+    top: 302px;
+    left: 203px;
+}
+.hide7 {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    background-color: #3f000f;
+    top: 305px;
+    left: 95px;
+}
+
+.hide8 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #3f000f;
+    transform: rotateZ(45deg);
+    top: 305px;
+    left: 105px;
+}
+.hide9 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #3f000f;
+    transform: rotateZ(45deg);
+    top: 305px;
+    left: 155px;
+}
+.hide10 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #3f000f;
+    transform: rotateZ(45deg);
+    top: 305px;
+    left: 205px;
+}
+.diamond21 {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background-color: #b76e79;
+    transform: rotateZ(45deg);
+    top: 315px;
+    left: 112px;
+}
+.diamond22 {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background-color: #b76e79;
+    transform: rotateZ(45deg);
+    top: 315px;
+    left: 162px;
+}
+.diamond23 {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background-color: #b76e79;
+    transform: rotateZ(45deg);
+    top: 315px;
+    left: 212px;
+}
+.diamond31 {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: #b76e79;
+    transform: rotateZ(45deg);
+    top: 315px;
+    left: 145px;
+}
+.diamond32 {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: #b76e79;
+    transform: rotateZ(45deg);
+    top: 260px;
+    left: 180px;
+}
+a {
+    position: absolute;
+    top: 450px;
+    left: 70px;
+    background-color: white;
+    color: black;
+    border-style: double;
+}
+
